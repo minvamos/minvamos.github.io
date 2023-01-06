@@ -1,7 +1,7 @@
-title: Minimalistic
-logo: /assets/img/logo.jpg
-email: person@address.com
-description: Minimalistic is a theme powered by Jekyll.
+title: Minvamos
+logo: /assets/img/Selfi.jpg
+email: zzmsz0317@gmail.com
+description: 학부생 개발일지/n 서울과학기술대학교 전기정보공학과
 favicon: true
 color-scheme: auto
 
@@ -9,14 +9,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - jekyll-remote-theme
 
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://github.com/minvamos
+  - name: Instagram
+    icon: <i class="fa-brands fa-instagram"></i>
+    link: https://www.instagram.com/minvamos_
 
 navigation:
   - name: Readme
@@ -26,19 +27,6 @@ navigation:
         link: ./index.html#small-image
   - name: Another Page
     link: ./another-page.html
-plugins:
-  - jekyll-remote-theme
+    
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-title: [Minvamos]
-description: [학부생 개발일지]
-color-scheme: auto 
-logo : /assets/img/Selfi.jpg
 
-
-platforms:
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/minvamos
-  - name: Instagram
-    icon: <i class="fa-brands fa-instagram"></i>
-    link: https://www.instagram.com/minvamos_
