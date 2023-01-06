@@ -28,3 +28,5 @@ navigation:
     link: ./another-page.html
 title: [Minvamos]
 description: [학부생 개발일지]
+color-scheme: auto 
+logo : /assets/img/Selfi.jpeg
