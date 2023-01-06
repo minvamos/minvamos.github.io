@@ -3,22 +3,18 @@
 source "https://rubygems.org"
 
 gemspec
+# commenting below to remove dependency with "github-pages" 
+# gem "github-pages", group: :jekyll_plugins
 
-group :test do
-  gem "html-proofer", "~> 3.18"
-end
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
+# https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
+# When running locally, we run into the following error —
+# `require': cannot load such file -- webrick (LoadError)
+# adding this avoids it
+gem "webrick"
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
-# Lock jekyll-sass-converter to 2.x on Linux-musl
-install_if -> { RUBY_PLATFORM =~ /linux-musl/ } do
-  gem "jekyll-sass-converter", "~> 2.0"
-end
+# adding the following gems to support removal of "github-pages" dependency
+gem "jemoji"
+gem "kramdown-parser-gfm"
