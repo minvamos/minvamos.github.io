@@ -29,4 +29,13 @@ navigation:
 title: [Minvamos]
 description: [학부생 개발일지]
 color-scheme: auto 
-logo : /assets/img/Selfi.jpeg
+logo : /assets/img/Selfi.jpg
+
+
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/minvamos
+  - name: Instagram
+    icon: <i class="fa-brands fa-instagram"></i>
+    link: https://www.instagram.com/minvamos_
