@@ -26,3 +26,5 @@ navigation:
         link: ./index.html#small-image
   - name: Another Page
     link: ./another-page.html
+title: [Minvamos]
+description: [학부생 개발일지]
